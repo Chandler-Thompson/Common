@@ -8,9 +8,9 @@ grammar faol;
 
 public <faol> = <address> <request> <requestTypes>;
 
-public <vocabulary> = (<address> hello | hello <address>| thank you | hey <address> | hi <address>);
+public <vocabulary> = (<address> hello | hello <address>| thank you | hey <address> | hi <address> | hello | hi | <address>);
 
-public <extra> = (know | how | why | who | you | hoo | shoo);
+public <extra> = (know | how | why | who | you);
 
 <address> = (foal | bahn | foal bahn);/**Faol purposefully spelled wrong (Faol not in vocabulary but foal is)*/
 

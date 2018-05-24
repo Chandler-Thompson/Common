@@ -7,13 +7,13 @@ import voce.SpeechInterface;
 
 public class SpeechManipulator {
 	
-	private String vocePath = "C:/Users/Chandler/Documents/Code/Java/Speech Manipulation/voce-0.9.1/lib";
+	private String vocePath = "C:/Users/arari/Documents/Files/Code/Java/Speech Manipulation/voce-0.9.1/lib";
 	
 	public SpeechManipulator(){
 		new SpeechInterface();
 		String grammarPath = "";
 		try {//used to get proper file path (throws errors otherwise...)
-		    grammarPath = new File("C:/Users/Chandler/Workspace/Common/lib/grammar").toURI().toURL().toString();
+		    grammarPath = new File("C:/Users/arari/Documents/GitHub/Common/lib/grammar").toURI().toURL().toString();
 		} catch (Exception e) {
 		    e.printStackTrace();
 		}
@@ -38,10 +38,12 @@ public class SpeechManipulator {
 			
 			while (voce.SpeechInterface.getRecognizerQueueSize() > 0)
 			{
-			      String s = voce.SpeechInterface.popRecognizedString();
+			      String s = "you said " + voce.SpeechInterface.popRecognizedString();
+
 			      if(s.equalsIgnoreCase("end"))
 			    	  System.exit(0);
-			      System.out.println("You said: " + s);
+			      System.out.println(s);
+			      userListen(s);
 			      System.out.println("looping");
 			}
 		}

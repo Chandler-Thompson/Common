@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="voce-0.9">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../Files/Code/Java/Speech Manipulation/voce-0.9.1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../Files/Code/Java/Speech Manipulation/voce-0.9.1/samples/recognitionTest/java" />
+      <root url="file://$PROJECT_DIR$/../../Files/Code/Java/Speech Manipulation/voce-0.9.1/samples/synthesisTest/java" />
+      <root url="file://$PROJECT_DIR$/../../Files/Code/Java/Speech Manipulation/voce-0.9.1/src/java" />
+    </SOURCES>
+  </library>
+</component>

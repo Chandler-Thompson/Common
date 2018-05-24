@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="file://C:/Users/Chandler/Documents/Code/Java/Speech Manipulation/voce-0.9.1/lib/cmu_us_kal.jar" />
+    <libelement value="file://C:/Users/Chandler/Documents/Code/Java/Speech Manipulation/voce-0.9.1/lib/cmulex.jar" />
+    <libelement value="file://C:/Users/Chandler/Documents/Code/Java/Speech Manipulation/voce-0.9.1/lib/en_us.jar" />
+    <libelement value="file://C:/Users/Chandler/Documents/Code/Java/Speech Manipulation/voce-0.9.1/lib/freetts.jar" />
+    <libelement value="file://C:/Users/Chandler/Documents/Code/Java/Speech Manipulation/voce-0.9.1/lib/jsapi.jar" />
+    <libelement value="file://C:/Users/Chandler/Documents/Code/Java/Speech Manipulation/voce-0.9.1/lib/sphinx4.jar" />
+    <libelement value="file://C:/Users/Chandler/Documents/Code/Java/Speech Manipulation/voce-0.9.1/lib/voce.jar" />
+    <libelement value="file://C:/Users/Chandler/Documents/Code/Java/Speech Manipulation/voce-0.9.1/lib/WSJ_8gau_13dCep_16k_40mel_130Hz_6800Hz.jar" />
+    <src_description expected_position="0">
+      <src_folder value="file://$MODULE_DIR$/src" expected_position="0" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/bin" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="module-library" scope="PROVIDED">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/../../Files/Code/Java/Speech Manipulation/voce-0.9.1/lib/voce.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
